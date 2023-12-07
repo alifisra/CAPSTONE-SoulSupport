@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">SoulSupport</string>
+
+    <!--    Text untuk Onboarding-->
+    <string name="desc_splash">Logo SplashScreen</string>
+    <string name="title_onboarding1">Ruang\ntanpa batas</string>
+    <string name="desc_onboarding1">Tempat di mana setiap kisah diterima dengan hangat dan setiap perasaan dihargai tanpa syarat.</string>
+    <string name="title_onboarding2">Karena kamu\nberharga</string>
+    <string name="desc_onboarding2">Kami hadir untuk mendengarkan dan mendukung Anda. Setiap cerita adalah langkah kecil menuju keseimbangan mental yang berharga.</string>
+    <string name="title_onboarding3">Mulai melangkah\nbersama</string>
+    <string name="desc_onboarding3">Melangkah dan menjadi pilar bagi satu sama lain. Soul Support adalah tempat di mana kita saling menguatkan dan tumbuh bersama."</string>
+    <string name="btn_onboard">Masuk</string>
+    <string name="tv_name">Murphy</string>
+
+    <!--    Text pada halaman Menu-->
+    <string name="hello_name">Hi, </string>
+    <string name="title_menu">Mau melakukan apa hari ini?</string>
+    <string name="menu_curhat">Curhat</string>
+    <string name="menu_note">Catatan</string>
+    <string name="menu_article">Artikel</string>
+    <string name="menu_meditation">Meditasi</string>
+    <string name="tv_home_welcome">Senang melihatmu kembali!</string>
+
+    <string name="title_login_regis">Soul Support</string>
+    <string name="title_welcome">Welcome to Soul support</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="masuk">MASUK</string>
+    <string name="email">Email@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="dont_have_account">Don’t have account?sign up</string>
+    <string name="have_account_login">Have account Login</string>
+    <string name="username">username</string>
+    <string name="nama_bot">Sarah</string>
+    <string name="back">kembali</string>
+    <string name="text_register">Create new account</string>
+    <string name="umur_register">age</string>
+    <string name="register_view">Let\'s Gooo…</string>
+    <string name="desc_checkbox">Berusia 15 tahun keatas</string>
+    <string name="arrow_back">tombol back</string>
+    <string name="image_user">image user</string>
+    <string name="arrow_logout">arrow logout</string>
+    <string name="setting">Setting</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="notification">Notification</string>
+    <string name="keluar">Keluar</string>
+    <string name="icon_logout">icon logout</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="icon_notifikasi">icon notifikasi</string>
+    <string name="icon_night_mode">icon night mode</string>
+    <string name="title_catatan">Catatan</string>
+    <string name="note_title">Judul</string>
+    <string name="hapus_catatan">hapus_catatan</string>
+    <string name="btn_edit">Edit</string>
+    <string name="searchbar_tint">Cari article</string>
+    <string name="message">Message....</string>
+    <string name="this_is_a_message">This is a message</string>
+    <string name="fab">tambah_note</string>
+    <string name="item_gambar_article">Gambar article</string>
+    <string name="tv_title_article">Finding Happiness</string>
+    <string name="keterangan_article"><![CDATA[Baca Selengkapnya >]]></string>
+    <string name="add_note_title">Mau menulis apa hari ini?</string>
+    <string name="add_note_desc">Ceritakan Hari-hari mu</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="desc_login">Hai Selamat datang Kembali</string>
+
+    <string name="contoh_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="banner_image">banner image</string>
+    <string name="img_user">image user</string>
+    <string name="exd_fab">Buat Cerita</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">gallery</string>
+    <string name="upload">Upload</string>
+    <string name="meditasi">Hai, istirahat sejenak dapat memberi pikiranmu waktu untuk me-refresh.\n Ingatlah momen-momen bahagia yang pernah kamu alami.\nTarik napas dalam - dalam dan keluarkan secara perlahan </string>
+
+</resources>

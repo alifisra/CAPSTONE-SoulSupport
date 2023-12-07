@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SoulSupport" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/secondary_800</item>
+        <item name="android:colorBackground">@color/primary_100</item>
+        <item name="colorOnBackground">@color/primary_100</item>
+        <item name="colorPrimaryContainer">@color/primary_50</item>
+        <item name="colorOnPrimaryContainer">@color/secondary_500</item>
+
+        // FAB
+        <item name="extendedFloatingActionButtonStyle">@style/Widget.App.ExtendedFloatingActionButton</item>
+        <item name="floatingActionButtonStyle">@style/Widget.App.FloatingActionButton</item>
+
+    </style>
+
+    <style name="Widget.App.ExtendedFloatingActionButton" parent="Widget.Material3.ExtendedFloatingActionButton.Icon.Primary">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.FloatingActionButton</item>
+    </style>
+
+    <style name="Widget.App.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.FloatingActionButton</item>
+    </style>
+
+    <style name="ThemeOverlay.App.FloatingActionButton" parent="">
+        <item name="colorContainer">@color/primary_50</item>
+        <item name="colorOnContainer">@color/secondary_500</item>
+    </style>
+
+    <style name="Theme.SoulSupport" parent="Base.Theme.SoulSupport" />
+
+<!--    Styling Switch Night Mode-->
+    <style name="nightModeSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/secondary_800</item>
+        <item name="colorSwitchThumbNormal">@color/secondary_800</item>
+        <item name="android:colorForeground">@color/secondary_800</item>
+    </style>
+
+<!--    Styling Switch Notification-->
+    <style name="notificationSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/secondary_800</item>
+        <item name="colorSwitchThumbNormal">@color/secondary_800</item>
+        <item name="android:colorForeground">@color/secondary_800</item>
+    </style>
+
+<!--    Styling Indicator Bottom Navigation-->
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/primary_500</item>
+    </style>
+</resources>

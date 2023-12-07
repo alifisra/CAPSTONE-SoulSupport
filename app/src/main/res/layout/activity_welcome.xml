@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_welcome_scene"
+    tools:context=".ui.auth.welcome.WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="156dp"
+        android:background="@drawable/soul"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Menu1"
+        android:layout_width="314dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/title_onboarding1"
+        android:textColor="@color/secondary_900"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo" />
+
+    <ImageView
+        android:id="@+id/ivDescWelcome1"
+        android:layout_width="300dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/onboard1"
+        app:layout_constraintEnd_toEndOf="@+id/Menu1"
+        app:layout_constraintLeft_toLeftOf="@id/Menu1"
+        app:layout_constraintTop_toBottomOf="@id/Menu1" />
+
+    <TextView
+        android:id="@+id/tvDescWelcome1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/poppins_regular"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/desc_onboarding1"
+        android:textColor="@color/secondary_900"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="@id/Menu1"
+        app:layout_constraintRight_toRightOf="@id/Menu1"
+        app:layout_constraintTop_toBottomOf="@id/ivDescWelcome1" />
+
+    <TextView
+        android:id="@+id/Menu2"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity=""
+        android:text="@string/title_onboarding2"
+        android:textColor="@color/secondary_900"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintLeft_toLeftOf="@id/ivLogo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo" />
+
+    <ImageView
+        android:id="@+id/ivDescWelcome2"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/onboard2"
+        android:layout_marginStart="-40dp"
+        app:layout_constraintLeft_toLeftOf="@id/Menu2"
+        app:layout_constraintTop_toBottomOf="@id/Menu2" />
+
+    <TextView
+        android:id="@+id/tvDescWelcome2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/desc_onboarding2"
+        android:textColor="@color/secondary_900"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="@id/Menu2"
+        app:layout_constraintRight_toRightOf="@id/Menu2"
+        app:layout_constraintTop_toBottomOf="@id/ivDescWelcome2" />
+
+    <TextView
+        android:id="@+id/Menu3"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/title_onboarding3"
+        android:textColor="@color/secondary_900"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo" />
+
+    <ImageView
+        android:id="@+id/ivDescWelcome3"
+        android:layout_width="300dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/onboard3"
+        app:layout_constraintLeft_toLeftOf="@id/Menu3"
+        app:layout_constraintTop_toBottomOf="@id/Menu3" />
+
+    <TextView
+        android:id="@+id/tvDescWelcome3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/poppins_regular"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/desc_onboarding3"
+        android:textColor="@color/secondary_900"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="@id/Menu3"
+        app:layout_constraintRight_toRightOf="@id/Menu3"
+        app:layout_constraintTop_toBottomOf="@id/ivDescWelcome3" />
+
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/ivProgress1"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_marginBottom="35dp"
+        app:altSrc="@drawable/ic_circle_full"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ivProgress2"
+        app:layout_constraintTop_toTopOf="@+id/ivProgress2"
+        app:srcCompat="@drawable/ic_circle_outline"
+        app:tint="@color/secondary_900" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/ivProgress2"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        app:altSrc="@drawable/ic_circle_full"
+        app:layout_constraintEnd_toEndOf="@+id/ivLogo"
+        app:layout_constraintLeft_toRightOf="@id/ivProgress1"
+        app:layout_constraintStart_toStartOf="@+id/ivLogo"
+        app:srcCompat="@drawable/ic_circle_outline"
+        app:tint="@color/secondary_900"
+        tools:layout_editor_absoluteY="686dp" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/ivProgress3"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        app:altSrc="@drawable/ic_circle_full"
+        app:layout_constraintLeft_toRightOf="@id/ivProgress2"
+        app:srcCompat="@drawable/ic_circle_outline"
+        app:tint="@color/secondary_900"
+        tools:layout_editor_absoluteY="710dp" />
+
+    <Button
+        android:id="@+id/btnToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_secondary"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/masuk"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/ivDescWelcome3"
+        tools:layout_editor_absoluteX="157dp" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
