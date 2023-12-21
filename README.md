@@ -19,6 +19,11 @@ This repository contains information about active students in various programs. 
   - **Institution:** Universitas Nusantara PGRI Kediri
   - **Status:** Active
 
+the steps in creating the chatbot feature begin with processing the dataset from Kaggle.
+Then from the dataset we translate it into Indonesian which is not standardized to make it easier for users to use our application.
+After that, we tried to train data with accuracy reaching 94%.
+Finally, make a model. In the process of making from start to finish we use python libraries and Pycharm tools.
+
 ## Cloud Computing (CC) Program
 
 - **C315BSY3841**
@@ -42,8 +47,5 @@ This repository contains information about active students in various programs. 
   - **Name:** Dedi Murphy
   - **Institution:** Universitas Bina Sarana Informatika
   - **Status:** Active
-
-
-
 
 [Mobile Development](https://github.com/asyhasnaa/SoulSupport)
