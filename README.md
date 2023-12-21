@@ -36,6 +36,32 @@ step :
   - **Name:** Rhenal Ahmad Farhan
   - **Institution:** Universitas Riau
  
+# Soul Support API
+main API for Soul Support app.
+
+Language used : node.js v18
+
+Framework used : Express
+
+Database used : MySQL
+
+To run the API locally, you need to : 
+
+* install and configure MySQL in your machine
+* change the .env file with the required variables and values
+* run "npm install" to update the dependencies
+
+Google Cloud service : App Engine and Cloud Run
+
+To run the API on Google Cloud Platform, you need to:
+
+* setup a MySQL database using CLoud SQL
+* setup a environment
+* create the .yaml file and write the deployment configuration, including runtime, service name, and .env variables
+* Deploy the service from Cloud Shell (command: 'gcloud app deploy)
+
+This is an api documentation link: [Soulsupport API]([https://documenter.getpostman.com/view/24616871/2s93sgV9sv](https://www.postman.com/raenal13/workspace/deployed/collection/31929755-89526668-ab38-4c31-b8d9-b478a8997166))
+
 
 ## Mobile Development (MD) Program
 
